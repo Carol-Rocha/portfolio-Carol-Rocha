@@ -75,16 +75,11 @@ export const Contacts = () => {
                 <Text color="grey2" type="body2">
                   Send me an email reporting feedbacks, suggestions and ideas
                 </Text>
-
                 <Text
                   as="a"
                   color="grey2"
                   type="body2"
-                  target="_blank"
-                  href={`mailto=${userData.emailUser}`}
-                  onClick={() =>
-                    (window.location.href = "carolds1@gmail.com")
-                  }
+                  href={`mailto:${userData.emailUser}`}
                 >
                   Send me an email
                 </Text>
