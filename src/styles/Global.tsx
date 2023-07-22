@@ -95,7 +95,7 @@ export const GlobalStyle = ({ children }: GlobalStyleProps): JSX.Element => {
       grey5: "#F8F9FA",
 
       socialInstagram: "#CF50AC",
-      socialFacebook: "#506CCF",
+      socialGitHub: "#506CCF",
       socialLinkedin: "#0E76A8",
 
       whiteFixed: "#ffffff",
